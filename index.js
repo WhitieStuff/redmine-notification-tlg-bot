@@ -57,7 +57,7 @@ const sendIssue = issue => {
   //console.log(`Issue is sent: ${JSON.stringify(issue)}`)
   let tracker = issue.tracker == 'Support' ? '' : `\n*${issue.tracker}*`
 
-  let message = `*New ticket* [#${issue.id}](https://tracker.egamings.com/issues/${issue.id}) *${tracker}* \n\`${issue.subject}\``
+  let message = `*New ticket* [#${issue.id}](https://******************************/issues/${issue.id}) *${tracker}* \n\`${issue.subject}\``
 
   console.log(message)
 

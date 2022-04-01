@@ -2,7 +2,7 @@ const axios = require('axios')
 const key = '***'
 
 const fetchRedmine = async (query = 'query_id=863') => {
-const url = `https://tracker.egamings.com/issues.json?key=${key}&${query}`
+const url = `https://******************/issues.json?key=${key}&${query}`
 console.log(`Fetching ${url}`)
     try {
         const response = await axios.get(url)

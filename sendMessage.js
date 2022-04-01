@@ -1,5 +1,5 @@
 const bot = require('./bot')
-const whitieID = 241337456
+const whitieID = *****
 
 const sendMessage = async (message, id = whitieID, parse_mode = 'Markdown') => {
   
